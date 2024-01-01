@@ -1,1 +1,1 @@
-# jpa-board
+# Blog
