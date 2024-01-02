@@ -24,6 +24,12 @@ public class UserApiController {
 		return "redirect:/login";
 	}
 
+	// @PostMapping("/login")
+	// public String login(AddUserRequest request) {
+	// 	userService.login(request);
+	// 	return "redirect:/login";
+	// }
+
 	@GetMapping("/logout")
 	public String logout(HttpServletRequest request, HttpServletResponse response) {
 		new SecurityContextLogoutHandler().logout(request, response,

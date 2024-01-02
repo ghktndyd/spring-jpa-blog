@@ -12,3 +12,6 @@ spring:
   h2:
     console:
       enabled: true
+jwt:
+  issuer: sooyom99@gmail.com
+  secret-key: study-springboot
